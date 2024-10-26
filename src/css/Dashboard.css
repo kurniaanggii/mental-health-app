@@ -1,0 +1,98 @@
+/* src/css/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.dashboard-title {
+  color: #4a90e2;
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.mood-tracker,
+.journal-entry,
+.activity-reminder,
+.progress-chart {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mood-tracker h3,
+.journal-entry h3,
+.activity-reminder h3,
+.progress-chart h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.mood-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100px;
+  background-color: #eef;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chart-bar {
+  width: 15%;
+  background-color: #4a90e2;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+}
+
+.update-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+  background-color: #357abd;
+}
